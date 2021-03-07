@@ -1,0 +1,6 @@
+{
+    "metis_airflow_home": "/opt/airflow",
+    "metis_hdfs_test_data_path": "tmp/tests/",
+    "metis_hdfs_master": "hdfs://hdp-name1-dev.sdb247.com:8020",
+    "metis_hive_metastore": "thrift://hdp-name2-esxi14.sdb247.com:9083"
+}
