@@ -90,10 +90,6 @@ ENV/
 # Rope project settings
 .ropeproject
 
-# PyCharm project setting
-../.idea
-.idea
-
 
 [Bb]in
 [Ii]nclude
@@ -127,11 +123,8 @@ project/project
 project/target
 target
 dist
-/.bsp
 
-# IDE project files/directories
-/.idea
-/.idea_modules
+
 /*.iml
 /.ensime*
 /.classpath
