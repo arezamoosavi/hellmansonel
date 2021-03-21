@@ -5,14 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="09ec2513-f122-419b-ab30-54b4d049ea10" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/modules/hellmansonel-build.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/scala_compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/hellmansonel-build.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/hellmansonel-build.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules/hellmansonel.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/hellmansonel.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sbt.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sbt.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.sbt" beforeDir="false" afterPath="$PROJECT_DIR$/build.sbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dags/metis_services/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/dags/app_services/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dags/metis_services/test_app.py" beforeDir="false" afterPath="$PROJECT_DIR$/dags/app_services/test_app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pca/Cancer_Data" beforeDir="false" afterPath="$PROJECT_DIR$/dags/app_services/data/Cancer_Data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pca/pca_canser_analysis.scala" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,6 +54,13 @@
       </state>
     </system>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -72,6 +79,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="TERMINAL_CUSTOM_COMMANDS_GOT_IT" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.0" />
@@ -79,11 +87,22 @@
     <property name="settings.editor.selected.configurable" value="preferences.customizations" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/dags/app_services/data" />
+      <recent name="$PROJECT_DIR$/src/main/scala" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.pca_canser_analysis (1)">
+    <configuration name="pca_canser_analysis (1)" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="pca_canser_analysis" />
+      <module name="hellmansonel" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="pca_canser_analysis" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="pca.pca_canser_analysis" />
       <module name="hellmansonel" />
@@ -99,6 +118,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.pca_canser_analysis (1)" />
         <item itemvalue="Application.pca_canser_analysis" />
       </list>
     </recent_temporary>
@@ -121,25 +141,29 @@
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
     <state x="645" y="300" width="610" height="515" key="FileChooserDialogImpl/0.30.1920.1050@0.30.1920.1050" timestamp="1616326957853" />
-    <state width="1874" height="276" key="GridCell.Tab.0.bottom" timestamp="1616326623109">
+    <state width="1874" height="278" key="GridCell.Tab.0.bottom" timestamp="1616329572645">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
-    <state width="1874" height="276" key="GridCell.Tab.0.bottom/0.30.1920.1050@0.30.1920.1050" timestamp="1616326623109" />
-    <state width="1874" height="276" key="GridCell.Tab.0.center" timestamp="1616326623109">
+    <state width="1874" height="278" key="GridCell.Tab.0.bottom/0.30.1920.1050@0.30.1920.1050" timestamp="1616329572645" />
+    <state width="1874" height="278" key="GridCell.Tab.0.center" timestamp="1616329572643">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
-    <state width="1874" height="276" key="GridCell.Tab.0.center/0.30.1920.1050@0.30.1920.1050" timestamp="1616326623109" />
-    <state width="1874" height="276" key="GridCell.Tab.0.left" timestamp="1616326623108">
+    <state width="1874" height="278" key="GridCell.Tab.0.center/0.30.1920.1050@0.30.1920.1050" timestamp="1616329572643" />
+    <state width="1874" height="278" key="GridCell.Tab.0.left" timestamp="1616329572641">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
-    <state width="1874" height="276" key="GridCell.Tab.0.left/0.30.1920.1050@0.30.1920.1050" timestamp="1616326623108" />
-    <state width="1874" height="276" key="GridCell.Tab.0.right" timestamp="1616326623109">
+    <state width="1874" height="278" key="GridCell.Tab.0.left/0.30.1920.1050@0.30.1920.1050" timestamp="1616329572641" />
+    <state width="1874" height="278" key="GridCell.Tab.0.right" timestamp="1616329572644">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
-    <state width="1874" height="276" key="GridCell.Tab.0.right/0.30.1920.1050@0.30.1920.1050" timestamp="1616326623109" />
+    <state width="1874" height="278" key="GridCell.Tab.0.right/0.30.1920.1050@0.30.1920.1050" timestamp="1616329572644" />
     <state x="443" y="132" width="1024" height="848" key="SettingsEditor" timestamp="1616326960219">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
     <state x="443" y="132" width="1024" height="848" key="SettingsEditor/0.30.1920.1050@0.30.1920.1050" timestamp="1616326960219" />
+    <state x="624" y="254" key="run.anything.popup" timestamp="1616329359233">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state x="624" y="254" key="run.anything.popup/0.30.1920.1050@0.30.1920.1050" timestamp="1616329359233" />
   </component>
 </project>

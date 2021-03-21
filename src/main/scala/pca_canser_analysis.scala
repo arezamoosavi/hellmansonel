@@ -1,5 +1,3 @@
-package pca
-
 import org.apache.spark.ml.feature.{PCA, StandardScaler, VectorAssembler}
 import org.apache.spark.ml.linalg.Vectors
 import org.apache.spark.sql.{DataFrame, SparkSession}
@@ -22,7 +20,7 @@ object pca_canser_analysis extends App {
     .option("header", "true")
     .option("inferSchema", "true")
     .format("csv")
-    .load("src/pca/Cancer_Data")
+    .load("dags/app_services/data/Cancer_Data")
 
   // Check out the Data
   data.printSchema()
