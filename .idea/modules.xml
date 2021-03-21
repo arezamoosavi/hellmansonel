@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/hellmansonel.iml" filepath="$PROJECT_DIR$/.idea/modules/hellmansonel.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/hellmansonel-build.iml" filepath="$PROJECT_DIR$/.idea/modules/hellmansonel-build.iml" />
     </modules>
   </component>
 </project>
