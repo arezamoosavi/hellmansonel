@@ -3,7 +3,7 @@ minio
 poyo
 pytz
 requests
-apache-airflow[postgres,crypto,password]==1.10.14
+apache-airflow==1.10.14
 joblib
 psycopg2-binary
 typing_extensions
