@@ -19,7 +19,8 @@ start_task = BashOperator(
 
 spark_run_pca = BashOperator(
     task_id="run_spark_validation_check_core_local",
-    bash_command="""spark-submit --verbose --master local dags/app_services/spark_pca.jar""",
+    bash_command="""spark-submit --verbose \
+        --master local {{var.value.airflow_home}}/dags/app_services/spark_pca.jar""",
     dag=dag,
 )
 
