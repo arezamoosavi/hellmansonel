@@ -28,14 +28,6 @@ ENV SPARK_HOME=/opt/spark
 ENV PATH=$PATH:$SPARK_HOME/bin
 ENV PATH=$PATH:$SPARK_HOME/sbin
 ENV PYTHONPATH=$SPARK_HOME/python3:$SPARK_HOME/python3/lib/py4j-0.10.7-src.zip:$PYTHONPATH
-RUN mkdir -p /opt/spark/history
-
-# install scala
-# RUN wget --no-verbose https://downloads.lightbend.com/scala/2.12.10/scala-2.12.10.tgz && \
-#     tar -xzvf scala-2.12.10.tgz && \
-#     mv scala-2.12.10 /opt/scala
-# ENV SCALA_HOME=/opt/scala
-# ENV PATH=$PATH:$SCALA_HOME/bin
 
 #Project
 COPY dockers/airflow/requirements.txt requirements.txt
@@ -49,7 +41,6 @@ RUN chown airflow /opt/airflow
 
 COPY ./dags ./opt/airflow/dags
 RUN chmod -R a+rwx /opt/airflow
-RUN chmod -R a+rwx /opt/spark/history
 
 COPY dockers/airflow/airflow.cfg /opt/airflow/airflow.cfg
 
