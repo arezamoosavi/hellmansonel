@@ -5,14 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="09ec2513-f122-419b-ab30-54b4d049ea10" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/modules/hellmansonel-build.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/hellmansonel-build.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/hellmansonel.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/hellmansonel.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.sbt" beforeDir="false" afterPath="$PROJECT_DIR$/build.sbt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dags/metis_services/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/dags/app_services/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dags/metis_services/test_app.py" beforeDir="false" afterPath="$PROJECT_DIR$/dags/app_services/test_app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pca/Cancer_Data" beforeDir="false" afterPath="$PROJECT_DIR$/dags/app_services/data/Cancer_Data" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pca/pca_canser_analysis.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dags/dag_v1.py" beforeDir="false" afterPath="$PROJECT_DIR$/dags/dag_spark_run_pca.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dockers/airflow/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/dockers/airflow/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dockers/airflow/run.sh" beforeDir="false" afterPath="$PROJECT_DIR$/dockers/airflow/run.sh" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -141,22 +138,22 @@
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
     <state x="645" y="300" width="610" height="515" key="FileChooserDialogImpl/0.30.1920.1050@0.30.1920.1050" timestamp="1616326957853" />
-    <state width="1874" height="278" key="GridCell.Tab.0.bottom" timestamp="1616329572645">
+    <state width="1874" height="278" key="GridCell.Tab.0.bottom" timestamp="1616331535595">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
-    <state width="1874" height="278" key="GridCell.Tab.0.bottom/0.30.1920.1050@0.30.1920.1050" timestamp="1616329572645" />
-    <state width="1874" height="278" key="GridCell.Tab.0.center" timestamp="1616329572643">
+    <state width="1874" height="278" key="GridCell.Tab.0.bottom/0.30.1920.1050@0.30.1920.1050" timestamp="1616331535595" />
+    <state width="1874" height="278" key="GridCell.Tab.0.center" timestamp="1616331535594">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
-    <state width="1874" height="278" key="GridCell.Tab.0.center/0.30.1920.1050@0.30.1920.1050" timestamp="1616329572643" />
-    <state width="1874" height="278" key="GridCell.Tab.0.left" timestamp="1616329572641">
+    <state width="1874" height="278" key="GridCell.Tab.0.center/0.30.1920.1050@0.30.1920.1050" timestamp="1616331535594" />
+    <state width="1874" height="278" key="GridCell.Tab.0.left" timestamp="1616331535593">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
-    <state width="1874" height="278" key="GridCell.Tab.0.left/0.30.1920.1050@0.30.1920.1050" timestamp="1616329572641" />
-    <state width="1874" height="278" key="GridCell.Tab.0.right" timestamp="1616329572644">
+    <state width="1874" height="278" key="GridCell.Tab.0.left/0.30.1920.1050@0.30.1920.1050" timestamp="1616331535593" />
+    <state width="1874" height="278" key="GridCell.Tab.0.right" timestamp="1616331535595">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
-    <state width="1874" height="278" key="GridCell.Tab.0.right/0.30.1920.1050@0.30.1920.1050" timestamp="1616329572644" />
+    <state width="1874" height="278" key="GridCell.Tab.0.right/0.30.1920.1050@0.30.1920.1050" timestamp="1616331535595" />
     <state x="443" y="132" width="1024" height="848" key="SettingsEditor" timestamp="1616326960219">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>

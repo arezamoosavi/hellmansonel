@@ -14,6 +14,5 @@ services:
       - AIRFLOW__CORE__FERNET_KEY=PeszOD9t6wKNdNONTGh-k4qsYbsGHQ8CSqTQZlqPCDk=
       - AIRFLOW_HOME=/opt/airflow
     restart: unless-stopped
-    # command: sleep infinity
-    command: sh /run.sh
-    # command: sh /jupyter_run.sh
+    command: sleep infinity
+#    command: sh /run.sh
