@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/hellmansonel.iml" filepath="$PROJECT_DIR$/.idea/modules/hellmansonel.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/hellmansonel-build.iml" filepath="$PROJECT_DIR$/.idea/modules/hellmansonel-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spark_pca/spark_pca.iml" filepath="$PROJECT_DIR$/spark_pca/spark_pca.iml" />
     </modules>
   </component>
 </project>

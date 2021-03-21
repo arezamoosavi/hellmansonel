@@ -9,6 +9,8 @@ object pca_canser_analysis extends App {
 
   Logger.getLogger("org").setLevel(Level.ERROR)
 
+  val dataPath = args(0)
+
   val spark = SparkSession.builder()
     .appName("PCA App")
     .config("spark.master", "local")
@@ -20,7 +22,7 @@ object pca_canser_analysis extends App {
     .option("header", "true")
     .option("inferSchema", "true")
     .format("csv")
-    .load("dags/app_services/data/Cancer_Data")
+    .load(dataPath)
 
   // Check out the Data
   data.printSchema()
